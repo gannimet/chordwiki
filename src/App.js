@@ -11,18 +11,20 @@ class App extends Component {
         return (
             <Router>
                 <div>
-                    <nav>
-                        <ul>
-                            <li>
-                                <Link to="/">Home</Link>
-                            </li>
-                            <li>
-                                <Link to="/new">Create new song</Link>
-                            </li>
-                        </ul>
-                    </nav>
-                    
-                    <div>
+                    <div className="container">
+                        <nav>
+                            <ul>
+                                <li>
+                                    <Link to="/">Home</Link>
+                                </li>
+                                <li>
+                                    <Link to="/new">Create new song</Link>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div className="container">
                         <Route exact path="/" component={Home} />
                         <Route path="/new" component={NewSong} />
                         <Route path="/song/:songId" component={Song} />

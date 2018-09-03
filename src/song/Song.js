@@ -11,7 +11,9 @@ class Song extends Component {
     
     render() {
         return (
-            <div>I am the Song component</div>
+            <div className="row">
+                <div className="col-xs-12">I am the Song component</div>
+            </div>
         );
     }
     

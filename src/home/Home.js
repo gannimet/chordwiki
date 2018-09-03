@@ -6,7 +6,9 @@ class Home extends Component {
     
     render() {
         return (
-            <div>I am the Home component</div>
+            <div className="row">
+                <div className="col-xs-12">I am the Home component</div>
+            </div>
         );
     }
     

@@ -7,10 +7,12 @@ class NewSong extends Component {
     
     render() {
         return (
-            <div>
-                Here you can create a new song.
-                
-                Also, try looking at <Link to="/song/1">our first song</Link>.
+            <div className="row">
+                <div className="col-xs-12">
+                    Here you can create a new song.
+
+                    Also, try looking at <Link to="/song/1">our first song</Link>.
+                </div>
             </div>
         );
     }
